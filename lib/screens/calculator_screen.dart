@@ -117,7 +117,7 @@ class CalculatorScreen extends StatelessWidget {
                 CalculatorButton(
                   text: '0',
                   big: true,
-                  onPressed: () => print('0'),
+                  onPressed: () => calculatorCtrl.addNumber('0'),
                 ),
                 CalculatorButton(
                   text: '.',
